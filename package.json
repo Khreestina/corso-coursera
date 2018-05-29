@@ -2,10 +2,20 @@
   "name": "corso-coursera",
   "version": "1.0.0",
   "description": "Progetto",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Khreestina/corso-coursera.git"
   },
   "author": "Christian Russo",
-  "license": "ISC"
+  "license": "ISC",
+  "homepage": "https://github.com/Khreestina/corso-coursera",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
 }
